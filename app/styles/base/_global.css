@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #291777;
+  background-color: var(--white);
 }
 
 img {
@@ -17,5 +17,10 @@ img {
 }
 
 a {
-  color: $mainOrange;
+  color: var(--blue);
+}
+
+.responsive-img {
+  width: 100%;
+  height: auto;
 }
